@@ -1,6 +1,6 @@
-# Umar Khan's Build a Diary Web App using the MERN Stack Project
+# Khurram Ali's Full Stack MERN Todo App Project
 
-This is a solution to the [Umar Khan's Build a Diary Web App using the MERN Stack Project](https://www.youtube.com/watch?v=rl7AVEi5hls). I'm testing my hand creating very simple (follow along) projects for now to get familiar with the matter. 
+This is a solution to the [Khurram Ali's Full Stack MERN Todo App Project](https://www.youtube.com/watch?v=giXuiotopO0). I'm testing my hand creating very simple (follow along) projects for now to get familiar with the matter.
 
 ## Table of contents
 
@@ -20,11 +20,7 @@ This is a solution to the [Umar Khan's Build a Diary Web App using the MERN Stac
 
 ### The Challenge/User Stories
 
-Build a full stack web application and deploy it to Render, a hosting service. This means your application can be used from anywhere with an internet connection!
-
-Our tech stack for this project will consist of MongoDB for the database, Express.js as the web server framework, React on the frontend, and Node.js as the server environment (MERN).
-
-We'll be using Visual Studio Code, MongoDB Compass, and Postman to help us build the application. And we'll learn how to set up a backend API including routes, controllers, and middleware, as well as a frontend, where we will get practice creating custom hooks, global state using the React Context API, and much more. 
+In this comprehensive tutorial, I'll guide you through the process of building a full-stack MERN (MongoDB, Express, React, Node) Todo application from scratch. You'll learn how to create a responsive design and set up a REST API for managing your tasks. We'll cover every step from development to deployment, and you'll have access to all the essential resources.
 
 ### Screenshot
 
@@ -32,21 +28,21 @@ We'll be using Visual Studio Code, MongoDB Compass, and Postman to help us build
 
 ### Links
 
-- Solution URL: [https://github.com/traez/diary-web-app-mern-stack-fe](https://github.com/traez/diary-web-app-mern-stack-fe)
-- Live Site URL: [https://diary-web-app-mern-stack-fe.onrender.com/](https://diary-web-app-mern-stack-fe.onrender.com/)
+- Solution URL: [https://github.com/traez/full-stack-mern-todo-app](https://github.com/traez/full-stack-mern-todo-app)
+- Live Site URL: [https://full-stack-mern-todo-app.onrender.com/](https://full-stack-mern-todo-app.onrender.com/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup 
-- CSS custom properties 
-- Flexbox 
-- CSS Grid 
-- Mobile-first workflow 
-- [React](https://reactjs.org/) - JS library 
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework (No)
-- Tailwind CSS  
+- Tailwind CSS
 - Typescript (No)
 - Nodejs
 - Expressjs
@@ -54,14 +50,15 @@ We'll be using Visual Studio Code, MongoDB Compass, and Postman to help us build
 
 ### What I learned
 
-- The existence and use of MongoDB Compass  
-- That Git still creates branch as master by default, hence Githubs "git branch -m master main" rename command  
-- In future MERN projects i should consider using a .env file for fetch url in the frontend. So I can change more sensibly from a single source.   
-- Frontend and Backend both deployed on render here. Not bad. (Vercel was spared for frontend. Note that with Next.js server actions, both frontend and backend go on Vercel. Next.js framework being a substitute for Expressjs framework).  
+- Developed this React client application, constructing the frontend and incorporating it into the backend as a static file after building it using 'npm run build.' To ensure seamless communication, I employed a proxy in the package.json file and utilized relative paths for endpoint calls from the frontend.
+
+- An alternative way of crafting this project would have been to making sure the backend and frontend are stored in separate repositories. In such a case I would further implement Cross-Origin Resource Sharing (CORS) policies to facilitate communication between them.
+
+- This experience has equipped me with the skills to efficiently refactor a previous project, addressing incomplete deployments and enhancing overall deployment processes.
 
 ### Continued development
 
-- More increasingly complex MERN stack projects. 
+- More increasingly complex MERN stack projects.
 
 ### Useful resources
 
